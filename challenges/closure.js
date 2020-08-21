@@ -16,9 +16,21 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: -nested function is within the scope of 'myFunction which holds the variale named 'internal' which is why it can access it.
 
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+
+function summation() {
+  let counter = [];
+  counter += 1;
+  for (let i = 0; i < arr.length; i--){
+    if (arr.length < counter) {
+      counter.push(arr);
+    }
+  }
+  return counter; 
+}
