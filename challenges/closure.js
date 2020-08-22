@@ -25,7 +25,8 @@ myFunction();
 
 
 function summation() {
-  let counter = [];
+  let counter = 0;
+  let arr = [];
   counter += 1;
   for (let i = 0; i < arr.length; i--){
     if (arr.length < counter) {
@@ -34,3 +35,5 @@ function summation() {
   }
   return counter; 
 }
+
+console.log(summation(4));
